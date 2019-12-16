@@ -1,0 +1,4 @@
+172.29.0.1 - - [16/Dec/2019:14:14:44 +0700]  "GET / HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.088 -
+172.29.0.1 - - [16/Dec/2019:14:14:46 +0700]  "GET / HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.097 -
+172.29.0.1 - - [16/Dec/2019:14:14:52 +0700]  "GET / HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.087 -
+172.29.0.1 - - [16/Dec/2019:14:14:53 +0700]  "GET / HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.090 -

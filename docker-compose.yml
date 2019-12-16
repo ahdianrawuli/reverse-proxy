@@ -1,0 +1,26 @@
+version: '3'
+services:
+
+  proxy:
+    build:
+      context: ./settings
+      dockerfile: Dockerfile
+      args:
+        nginxversion: 1.16.1
+    networks:
+      - nginx_proxy
+    container_name: nginx_proxy
+    ports:
+      - "8888:80"
+    volumes:
+      - "./settings/config/default:/opt/nginx/conf/default"
+      - "./settings/config/conf.d:/opt/nginx/conf/conf.d"
+      - "./settings/entrypoint.sh:/root/entrypoint.sh"
+      - "./settings/logs:/var/log/nginx"
+    entrypoint: sh /root/entrypoint.sh
+
+networks:
+  nginx_proxy:
+    ipam:
+      config:
+        - subnet: 172.29.0.0/24
