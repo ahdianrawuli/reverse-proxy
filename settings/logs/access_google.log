@@ -2,3 +2,8 @@
 172.29.0.1 - - [16/Dec/2019:14:14:46 +0700]  "GET / HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.097 -
 172.29.0.1 - - [16/Dec/2019:14:14:52 +0700]  "GET / HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.087 -
 172.29.0.1 - - [16/Dec/2019:14:14:53 +0700]  "GET / HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.090 -
+172.29.0.1 - - [16/Dec/2019:14:23:04 +0700]  "GET / HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.088 -
+172.29.0.1 - - [16/Dec/2019:14:23:06 +0700]  "GET / HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.091 -
+172.29.0.1 - - [16/Dec/2019:14:25:02 +0700]  "GET / HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.078 -
+172.29.0.1 - - [16/Dec/2019:14:25:09 +0700]  "GET /fnb-bucket-static/avatar-blank-160-160.jpg?organizationId=212323957379 HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.096 -
+172.29.0.1 - - [16/Dec/2019:14:25:24 +0700]  "GET /fnb-bucket-static/avatar-blank-160-160.jpg?organizationId=212323957379 HTTP/1.1" 302 0 "-" "curl/7.29.0" http localhost - Response : 0.135 -
